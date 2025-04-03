@@ -7,7 +7,9 @@ from mlflow import MlflowClient
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import root_mean_squared_error
 
-TRACKING_URI = "http://localhost:5000"
+
+#TRACKING_URI = "sqlite:///mlruns.db"
+TRACKING_URI = "http://localhost:5050"
 EXPERIMENT_NAME = "duration-prediction"
 RUN_NAME = "Random Forest Regressor"
 client = MlflowClient(TRACKING_URI)

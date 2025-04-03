@@ -16,7 +16,7 @@ os.environ['MLFLOW_S3_ENDPOINT_URL'] = os.getenv("MINIO_ENDPOINT")
 os.environ['AWS_ACCESS_KEY_ID'] = os.getenv("ACCESS_KEY")
 os.environ['AWS_SECRET_ACCESS_KEY'] = os.getenv("SECRET_KEY")
 
-TRACKING_URI = "http://localhost:5000"
+TRACKING_URI = "http://localhost:5050"
 EXPERIMENT_NAME = "duration-prediction-hyperopt"
 RUN_NAME = "Random Forest Regressor"
 client = MlflowClient(TRACKING_URI)

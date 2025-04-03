@@ -1,1 +1,6 @@
 mlzoomcamp
+minio_data
+minio.deb
+.env
+mlruns
+mlartifacts

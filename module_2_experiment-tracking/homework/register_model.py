@@ -19,7 +19,7 @@ HPO_EXPERIMENT_NAME = "duration-prediction-hyperopt"
 EXPERIMENT_NAME = "duration-prediction-best-models"
 RF_PARAMS = ['max_depth', 'n_estimators', 'min_samples_split', 'min_samples_leaf', 'random_state']
 
-TRACKING_URI = "http://localhost:5000"
+TRACKING_URI = "http://localhost:5050"
 MODEL_NAME="duration-prediction-model"
 
 
