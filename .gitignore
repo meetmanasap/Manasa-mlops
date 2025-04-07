@@ -4,3 +4,5 @@ minio.deb
 .env
 mlruns
 mlartifacts
+mage-quickstart
+mlruns.db
