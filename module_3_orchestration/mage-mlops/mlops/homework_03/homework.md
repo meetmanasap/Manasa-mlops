@@ -10,7 +10,7 @@ First, let's run Mage with Docker Compose. Follow the quick start guideline.
 
 What's the version of Mage we run? 
 
-**0.9.76**
+**0.9.70**
 
 
 ## Question 2. Creating a project
@@ -28,7 +28,7 @@ How many lines are in the created `metadata.yaml` file?
 
 Let's create an ingestion code block.
 
-In this block, we will read the March 2024 Yellow taxi trips data.
+In this block, we will read the March 2023 Yellow taxi trips data.
 
 How many records did we load? 
 

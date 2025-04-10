@@ -4,4 +4,4 @@ export PROJECT_NAME=mlops
 export MAGE_CODE_PATH=/home/src
 export SMTP_EMAIL=$SMTP_EMAIL
 export SMTP_PASSWORD=$SMTP_PASSWORD
-podman compose up --detach
+docker compose up
