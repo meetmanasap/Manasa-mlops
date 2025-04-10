@@ -2,7 +2,7 @@
 name = "04-deployment"
 version = "0.1.0"
 description = "This is for model inference"
-authors = ["Kiran Kumar Panchangam <kiran_panchangam@epam.com>"]
+authors = ["Manasa Thirumala <manasa_thirumala@epam.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
