@@ -13,10 +13,10 @@ os.environ['AWS_ACCESS_KEY_ID'] = os.getenv("ACCESS_KEY")
 os.environ['AWS_SECRET_ACCESS_KEY'] = os.getenv("SECRET_KEY")
 
 # Use below setting for local run
-# S3_ENDPOINT_URL = "http://127.0.0.1:9000"
+S3_ENDPOINT_URL = "http://127.0.0.1:9000"
 
 # Use below setting for Docker image
-S3_ENDPOINT_URL = os.path.basename(os.getenv("MINIO_ENDPOINT")).split("//")[0]
+# S3_ENDPOINT_URL = os.path.basename(os.getenv("MINIO_ENDPOINT")).split("//")[0]
 
 def prepare_data(df, categorical):
     df["duration"] = df.tpep_dropoff_datetime - df.tpep_pickup_datetime

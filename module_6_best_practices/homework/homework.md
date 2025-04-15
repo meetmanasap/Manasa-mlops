@@ -220,7 +220,7 @@ df_input.to_parquet(
 
 What's the size of the file?
 
-* **3620**   **Actual file Size is 3.5 KiB**
+* **3620**   **Actual file Size is 3.1 KiB**
 * 23620
 * 43620
 * 63620
